@@ -16,7 +16,8 @@ tags:
 
 ## git分支管理
 
-> 参考链接：[如何使用 Git 进行多人协作开发（全流程图解）_git多人协作开发流程-CSDN博客](https://blog.csdn.net/whc18858/article/details/133209975)
+>
+参考链接：[如何使用 Git 进行多人协作开发（全流程图解）_git多人协作开发流程-CSDN博客](https://blog.csdn.net/whc18858/article/details/133209975)
 
 ## git指令集合
 
@@ -32,9 +33,9 @@ Git commit -m “”: 提交
 
 Git remote add origin github地址
 
-$ git fetch origin master  将远程仓库origin上的master分支上的东西
+$ git fetch origin master 将远程仓库origin上的master分支上的东西
 
-$ git log -p master..origin/master 
+$ git log -p master..origin/master
 
 $ git merge origin/master  ***\*--allow-unrelated-histories\****
 
@@ -58,11 +59,11 @@ git push origin master：推送到远程仓库的master分支
 
 合并：
 
-Git checkout master 	切换到master
+Git checkout master 切换到master
 
-Git merge dev	合并dev
+Git merge dev 合并dev
 
-Git push origin master	推送到远程master
+Git push origin master 推送到远程master
 
 Git tag -a tagname -m “备注” 创建标签
 
@@ -76,8 +77,6 @@ git merge –abort 恢复到你运行合并前的状态
 
 git merge -Xignore-space-change whitespace 将一个空白和连续空白等价
 
-
-
 ## 合并分支
 
 ```git
@@ -87,8 +86,6 @@ Git merge dev	合并dev
 
 Git push origin master	推送到远程master
 ```
-
-
 
 ## 提交本地代码到github
 
@@ -113,8 +110,6 @@ $ git log -p master..origin/master
 $ git merge origin/master --allow-unrelated-histories
 ```
 
-
-
 ## 克隆项目
 
 ```
@@ -131,8 +126,6 @@ git checkout 版本id
 cat ~/.ssh/id_rsa.pub
 git clone git@github.com:torvalds/linux.git
 ```
-
-
 
 ## Git通过密钥对远程仓库上传和更新详细操作
 
